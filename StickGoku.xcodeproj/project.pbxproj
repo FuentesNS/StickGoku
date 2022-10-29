@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F72AC58428FF53D8005B6141 /* Defined.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72AC58328FF53D8005B6141 /* Defined.swift */; };
+		F72AC58628FF71E7005B6141 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72AC58528FF71E7005B6141 /* Tools.swift */; };
 		F73D024328FA195400A58922 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D024228FA195400A58922 /* AppDelegate.swift */; };
 		F73D024528FA195400A58922 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F73D024428FA195400A58922 /* GameScene.sks */; };
 		F73D024728FA195400A58922 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F73D024628FA195400A58922 /* Actions.sks */; };
@@ -15,9 +17,29 @@
 		F73D024E28FA195400A58922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73D024C28FA195400A58922 /* Main.storyboard */; };
 		F73D025028FA195600A58922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F73D024F28FA195600A58922 /* Assets.xcassets */; };
 		F73D025328FA195600A58922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73D025128FA195600A58922 /* LaunchScreen.storyboard */; };
+		F7B5EA16290C50D400382C9C /* Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7B5EA15290C50D400382C9C /* Background.jpg */; };
+		F7B5EA20290C548500382C9C /* kick.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7B5EA18290C548500382C9C /* kick.wav */; };
+		F7B5EA21290C548500382C9C /* bg_country.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7B5EA19290C548500382C9C /* bg_country.mp3 */; };
+		F7B5EA22290C548500382C9C /* fall.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7B5EA1A290C548500382C9C /* fall.wav */; };
+		F7B5EA23290C548500382C9C /* stick_grow_loop.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7B5EA1B290C548500382C9C /* stick_grow_loop.wav */; };
+		F7B5EA24290C548500382C9C /* highScore.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7B5EA1C290C548500382C9C /* highScore.wav */; };
+		F7B5EA25290C548500382C9C /* dead.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7B5EA1D290C548500382C9C /* dead.wav */; };
+		F7B5EA26290C548500382C9C /* touch_mid.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7B5EA1E290C548500382C9C /* touch_mid.wav */; };
+		F7B5EA27290C548500382C9C /* victory.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7B5EA1F290C548500382C9C /* victory.wav */; };
+		F7BBCAF82900609E00FFCA3E /* StickGokuGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BBCAF72900609E00FFCA3E /* StickGokuGameScene.swift */; };
+		F7BDC76C290B4C31000BACEB /* GokuCorriendo5.png in Resources */ = {isa = PBXBuildFile; fileRef = F7BDC764290B4C30000BACEB /* GokuCorriendo5.png */; };
+		F7BDC76D290B4C31000BACEB /* GokuCorriendo8.png in Resources */ = {isa = PBXBuildFile; fileRef = F7BDC765290B4C30000BACEB /* GokuCorriendo8.png */; };
+		F7BDC76E290B4C31000BACEB /* GokuCorriendo1.png in Resources */ = {isa = PBXBuildFile; fileRef = F7BDC766290B4C30000BACEB /* GokuCorriendo1.png */; };
+		F7BDC76F290B4C31000BACEB /* GokuCorriendo2.png in Resources */ = {isa = PBXBuildFile; fileRef = F7BDC767290B4C30000BACEB /* GokuCorriendo2.png */; };
+		F7BDC770290B4C31000BACEB /* GokuCorriendo6.png in Resources */ = {isa = PBXBuildFile; fileRef = F7BDC768290B4C30000BACEB /* GokuCorriendo6.png */; };
+		F7BDC771290B4C31000BACEB /* GokuCorriendo7.png in Resources */ = {isa = PBXBuildFile; fileRef = F7BDC769290B4C31000BACEB /* GokuCorriendo7.png */; };
+		F7BDC772290B4C31000BACEB /* GokuCorriendo3.png in Resources */ = {isa = PBXBuildFile; fileRef = F7BDC76A290B4C31000BACEB /* GokuCorriendo3.png */; };
+		F7BDC773290B4C31000BACEB /* GokuCorriendo4.png in Resources */ = {isa = PBXBuildFile; fileRef = F7BDC76B290B4C31000BACEB /* GokuCorriendo4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F72AC58328FF53D8005B6141 /* Defined.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defined.swift; sourceTree = "<group>"; };
+		F72AC58528FF71E7005B6141 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 		F73D023F28FA195400A58922 /* StickGoku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StickGoku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73D024228FA195400A58922 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F73D024428FA195400A58922 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -27,6 +49,24 @@
 		F73D024D28FA195400A58922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F73D024F28FA195600A58922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F73D025228FA195600A58922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7B5EA15290C50D400382C9C /* Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Background.jpg; path = ../../../../ImagenesJuego/Background.jpg; sourceTree = "<group>"; };
+		F7B5EA18290C548500382C9C /* kick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kick.wav; sourceTree = "<group>"; };
+		F7B5EA19290C548500382C9C /* bg_country.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bg_country.mp3; sourceTree = "<group>"; };
+		F7B5EA1A290C548500382C9C /* fall.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fall.wav; sourceTree = "<group>"; };
+		F7B5EA1B290C548500382C9C /* stick_grow_loop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = stick_grow_loop.wav; sourceTree = "<group>"; };
+		F7B5EA1C290C548500382C9C /* highScore.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = highScore.wav; sourceTree = "<group>"; };
+		F7B5EA1D290C548500382C9C /* dead.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dead.wav; sourceTree = "<group>"; };
+		F7B5EA1E290C548500382C9C /* touch_mid.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = touch_mid.wav; sourceTree = "<group>"; };
+		F7B5EA1F290C548500382C9C /* victory.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = victory.wav; sourceTree = "<group>"; };
+		F7BBCAF72900609E00FFCA3E /* StickGokuGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickGokuGameScene.swift; sourceTree = "<group>"; };
+		F7BDC764290B4C30000BACEB /* GokuCorriendo5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GokuCorriendo5.png; sourceTree = "<group>"; };
+		F7BDC765290B4C30000BACEB /* GokuCorriendo8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GokuCorriendo8.png; sourceTree = "<group>"; };
+		F7BDC766290B4C30000BACEB /* GokuCorriendo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GokuCorriendo1.png; sourceTree = "<group>"; };
+		F7BDC767290B4C30000BACEB /* GokuCorriendo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GokuCorriendo2.png; sourceTree = "<group>"; };
+		F7BDC768290B4C30000BACEB /* GokuCorriendo6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GokuCorriendo6.png; sourceTree = "<group>"; };
+		F7BDC769290B4C31000BACEB /* GokuCorriendo7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GokuCorriendo7.png; sourceTree = "<group>"; };
+		F7BDC76A290B4C31000BACEB /* GokuCorriendo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GokuCorriendo3.png; sourceTree = "<group>"; };
+		F7BDC76B290B4C31000BACEB /* GokuCorriendo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GokuCorriendo4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +80,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F7273B0528FE2A0000684706 /* Imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				F7B5EA15290C50D400382C9C /* Background.jpg */,
+				F7BDC766290B4C30000BACEB /* GokuCorriendo1.png */,
+				F7BDC767290B4C30000BACEB /* GokuCorriendo2.png */,
+				F7BDC76A290B4C31000BACEB /* GokuCorriendo3.png */,
+				F7BDC76B290B4C31000BACEB /* GokuCorriendo4.png */,
+				F7BDC764290B4C30000BACEB /* GokuCorriendo5.png */,
+				F7BDC768290B4C30000BACEB /* GokuCorriendo6.png */,
+				F7BDC769290B4C31000BACEB /* GokuCorriendo7.png */,
+				F7BDC765290B4C30000BACEB /* GokuCorriendo8.png */,
+			);
+			path = Imagenes;
+			sourceTree = "<group>";
+		};
+		F72AC58028FF533A005B6141 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				F72AC58328FF53D8005B6141 /* Defined.swift */,
+				F72AC58528FF71E7005B6141 /* Tools.swift */,
+				F7BBCAF72900609E00FFCA3E /* StickGokuGameScene.swift */,
+				F73D024A28FA195400A58922 /* GameViewController.swift */,
+				F73D024228FA195400A58922 /* AppDelegate.swift */,
+				F73D024828FA195400A58922 /* GameScene.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
 		F73D023628FA195400A58922 = {
 			isa = PBXGroup;
 			children = (
@@ -59,16 +128,31 @@
 		F73D024128FA195400A58922 /* StickGoku */ = {
 			isa = PBXGroup;
 			children = (
-				F73D024228FA195400A58922 /* AppDelegate.swift */,
+				F7B5EA17290C546F00382C9C /* Sounds */,
+				F72AC58028FF533A005B6141 /* Scene */,
+				F7273B0528FE2A0000684706 /* Imagenes */,
 				F73D024428FA195400A58922 /* GameScene.sks */,
 				F73D024628FA195400A58922 /* Actions.sks */,
-				F73D024828FA195400A58922 /* GameScene.swift */,
-				F73D024A28FA195400A58922 /* GameViewController.swift */,
 				F73D024C28FA195400A58922 /* Main.storyboard */,
 				F73D024F28FA195600A58922 /* Assets.xcassets */,
 				F73D025128FA195600A58922 /* LaunchScreen.storyboard */,
 			);
 			path = StickGoku;
+			sourceTree = "<group>";
+		};
+		F7B5EA17290C546F00382C9C /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F7B5EA19290C548500382C9C /* bg_country.mp3 */,
+				F7B5EA1D290C548500382C9C /* dead.wav */,
+				F7B5EA1A290C548500382C9C /* fall.wav */,
+				F7B5EA1C290C548500382C9C /* highScore.wav */,
+				F7B5EA18290C548500382C9C /* kick.wav */,
+				F7B5EA1B290C548500382C9C /* stick_grow_loop.wav */,
+				F7B5EA1E290C548500382C9C /* touch_mid.wav */,
+				F7B5EA1F290C548500382C9C /* victory.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,10 +213,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7B5EA20290C548500382C9C /* kick.wav in Resources */,
 				F73D024E28FA195400A58922 /* Main.storyboard in Resources */,
+				F7B5EA22290C548500382C9C /* fall.wav in Resources */,
+				F7BDC76E290B4C31000BACEB /* GokuCorriendo1.png in Resources */,
+				F7BDC76C290B4C31000BACEB /* GokuCorriendo5.png in Resources */,
+				F7B5EA16290C50D400382C9C /* Background.jpg in Resources */,
+				F7BDC772290B4C31000BACEB /* GokuCorriendo3.png in Resources */,
 				F73D024528FA195400A58922 /* GameScene.sks in Resources */,
+				F7B5EA26290C548500382C9C /* touch_mid.wav in Resources */,
+				F7B5EA24290C548500382C9C /* highScore.wav in Resources */,
 				F73D025028FA195600A58922 /* Assets.xcassets in Resources */,
+				F7B5EA25290C548500382C9C /* dead.wav in Resources */,
+				F7B5EA21290C548500382C9C /* bg_country.mp3 in Resources */,
+				F7B5EA27290C548500382C9C /* victory.wav in Resources */,
+				F7BDC773290B4C31000BACEB /* GokuCorriendo4.png in Resources */,
+				F7BDC771290B4C31000BACEB /* GokuCorriendo7.png in Resources */,
 				F73D025328FA195600A58922 /* LaunchScreen.storyboard in Resources */,
+				F7BDC76D290B4C31000BACEB /* GokuCorriendo8.png in Resources */,
+				F7BDC76F290B4C31000BACEB /* GokuCorriendo2.png in Resources */,
+				F7BDC770290B4C31000BACEB /* GokuCorriendo6.png in Resources */,
+				F7B5EA23290C548500382C9C /* stick_grow_loop.wav in Resources */,
 				F73D024728FA195400A58922 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,6 +248,9 @@
 				F73D024928FA195400A58922 /* GameScene.swift in Sources */,
 				F73D024B28FA195400A58922 /* GameViewController.swift in Sources */,
 				F73D024328FA195400A58922 /* AppDelegate.swift in Sources */,
+				F72AC58428FF53D8005B6141 /* Defined.swift in Sources */,
+				F72AC58628FF71E7005B6141 /* Tools.swift in Sources */,
+				F7BBCAF82900609E00FFCA3E /* StickGokuGameScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
